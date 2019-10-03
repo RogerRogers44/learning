@@ -30,15 +30,15 @@ print("We can trasnport", carpool_capacity,"people today.")
 print("We have", passengers,"passengers to carpool today")
 print("We need to put about", average_passengers_per_car,"people in each car")
 
-myName = "Mr. Black"
-myAge = 257
-myHeight = 70
+myName = "Mr. Black" # use %s to use words
+myAge = 257 # use %d or %i to use numbers
+myHeight = 70.69
 myEyes = "brown"
 myTeeth = "white"
 myHair = "yes, some"
 
-print("Lat's talk about %s." % myName)
-print("He's %d inches tall." % myHeight)
+print("\n\n\n\nLat's talk about %s." % myName)
+print("He's %i inches tall." % myHeight)
 print("He's got %s eyes and %s hair." % (myEyes, myHair))
 print("His teeth \tare usually %s depending \n on the coffee." % myTeeth)
 print("If I add %d and %d, I get %d." % (myAge, myHeight, myAge + myHeight))
